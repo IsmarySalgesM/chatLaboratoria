@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat de Laboratoria</title>
+</head>
+<body>
+  <div id="chat"></div>
+    <input type="text" id="mensage">
+    <button id="enviar">Enviar</button>
+
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD5RyHCIgy7x0py49q-0vemvcX4rnmzPLo",
+      authDomain: "inputmensaje.firebaseapp.com",
+      databaseURL: "https://inputmensaje.firebaseio.com",
+      projectId: "inputmensaje",
+      storageBucket: "inputmensaje.appspot.com",
+      messagingSenderId: "213549845554"
+    };
+    firebase.initializeApp(config);
+  </script>
+</body>
+</html>
